@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/test/dev/push_buffer/List.h
+pthread.h
+-
+
+/opt/test/dev/push_buffer/main.cpp
+iostream
+-
+List.h
+/opt/test/dev/push_buffer/List.h
+
